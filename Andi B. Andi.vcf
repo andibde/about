@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:2.1
+N;CHARSET=ISO-8859-1:B.;Andi;;Herr;Andi
+FN;CHARSET=ISO-8859-1:Herr Andi B.
+ORG;CHARSET=ISO-8859-1:GIG Projekt
+TITLE;CHARSET=ISO-8859-1:CEO
+URL;type=WORK;CHARSET=ISO-8859-1:https://realyellowdev.github.io/gig/
+URL;type=PRIVATE;CHARSET=ISO-8859-1:https://realyellowdev.github.io/about/
+END:VCARD
