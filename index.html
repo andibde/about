@@ -586,445 +586,205 @@
     </div>
 </section>
     <!--==========================================
-                   PORTFOLIOS
+                  PORTFOLIOS
 ===========================================-->
 <section id="portfolios" class="section">
-    <h4 class="text-uppercase text-center">Portfolios</h4>
     <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/safe.png" alt="demo">Portfolios</h4>
+        </div>
+        <div id="portfolios-card" class="row">
 
-        <div class="row">
-            <!-- A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
-            for an unfiltered gallery and then the values of your categories to filter between them -->
-            <ul class="text-center simple-filter" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
-                <li class="active-cat" data-filter="all"><a>All</a></li>
-                <li data-filter="1"><a>Java</a></li>
-                <li data-filter="2"><a>Web</a></li>
-                <li data-filter="3"><a>Javascript</a></li>
-                <!--<li data-filter="4"><a>Colorful</a></li>
-                <li data-filter="5"><a>Personal</a></li>-->
+            <!--OPTIONS-->
+            <ul class="nav nav-tabs">
+                <!--ALL CATEGORIES-->
+                <li class="active waves-effect list-shuffle"><a id="all-sample" class="active" href="#all"
+                                                                data-toggle="tab">ALL</a>
+                    <!--CATEGORIES-->
+                <li class="waves-effect list-shuffle"><a class="cate" href="#a" data-toggle="tab">ANDROID</a></li>
+                <!--<li class="waves-effect list-shuffle"><a class="cate" href="#b" data-toggle="tab">DRIBBLE</a></li>-->
+                <li class="waves-effect list-shuffle"><a class="cate" href="#c" data-toggle="tab">WEBSITES</a></li>
             </ul>
 
-            <div class="filtr-container center-block">
+            <!--CATEGORIES CONTENT-->
+            <div class="tab-content">
 
-                <!-- 1st Portfolio, Filter Option -->
-                <div class="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="1, 5">
-                    <div class="portfolio card">
-                        <figure class="hover-effect">
-                            <!-- Portfolio Image -->
-                            <img class="img-responsive" src="images/portfolios/p1.jpg" alt="">
-                            <!-- open-modal ID -->
-                            <a data-toggle="modal" data-target="#modal1" href="#0">
-                                <figcaption><span>View Details</span></figcaption>
-                            </a>
+                <!--All CATEGORIES-->
+                <div id="all"></div>
+
+                <!--CATEGORY 1-->
+                <div id="a">
+
+                    <!--CATEGORY CONTENT ONE BIG-->
+                    <div class="col-md-4 col-sm-12 col-xs-12 grid big inLeft">
+                        <figure class="port-effect-scale">
+                            <img src="images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>Two Hover Effect For Portfolio Grid Blocks. Its Scale</p>
+                                <a href="images/portfolios/big-1.jpg" class="popup-image" data-effect="mfp-3d-unfold">View
+                                    more</a>
+                            </figcaption>
                         </figure>
-                        <!-- Portfolio Title -->
-                        <h6 class="text-capitalize text-center">Portfolio Title Here</h6>
                     </div>
-                </div>
-                <!-- ./Portfolio -->
-                <!-- 1st MODAL -->
-                <div id="modal1" class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content animated zoomIn">
-                            <h3 class="text-capitalize text-left">Project title will be placed here</h3>
-                            <div class="row">
-                                <!-- Modal Image -->
-                                <img class="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p1.jpg" alt="">
 
-                                <!-- Modal Content -->
-                                <div class="content col-md-4 col-sm-12 col-xs-12">
-                                    <!-- Date, Category & Client Name of the Project -->
-                                    <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                                    <p><span>Category:&nbsp;</span> System Development</p>
-                                    <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                                    <!-- Live Demo Link -->
-                                    <a href="#0" target="_blank" class="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
-                                    <!-- Some Information Abut the Project -->
-                                    <p class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet.
-                                    </p>
-                                    <button data-dismiss="modal" class="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./modal -->
-
-
-                <!-- 2nd Portfolio, Filter Option -->
-                <div class="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="2, 3, 4">
-                    <div class="portfolio card">
-                        <figure class="hover-effect">
-                            <!-- Portfolio Image -->
-                            <img class="img-responsive" src="images/portfolios/p2.jpg" alt="">
-                            <!-- open-modal ID -->
-                            <a data-toggle="modal" data-target="#modal2" href="#0">
-                                <figcaption><span>View Details</span></figcaption>
-                            </a>
+                    <!--CATEGORY CONTENT TWO SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-scale">
+                            <img src="images/portfolios/portfolio-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2><i class="fa fa-play-circle" aria-hidden="true"></i>Lightbox <span> Video</span>
+                                </h2>
+                                <p>I designed this for a client for his cafe.</p>
+                                <a class="popup-vimeo" href="https://vimeo.com/45830194">View more</a>
+                            </figcaption>
                         </figure>
-                        <!-- Portfolio Title -->
-                        <h6 class="text-capitalize text-center">Portfolio Title Here</h6>
                     </div>
-                </div>
-                <!-- ./Portfolio -->
-                <!-- 2nd MODAL -->
-                <div id="modal2" class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content animated zoomIn">
-                            <h3 class="text-capitalize text-left">Project title will be placed here</h3>
-                            <div class="row">
-                                <!-- Modal Image -->
-                                <img class="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p2.jpg" alt="">
 
-                                <!-- Modal Content -->
-                                <div class="content col-md-4 col-sm-12 col-xs-12">
-                                    <!-- Date, Category & Client Name of the Project -->
-                                    <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                                    <p><span>Category:&nbsp;</span> System Development</p>
-                                    <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                                    <!-- Live Demo Link -->
-                                    <a href="#0" target="_blank" class="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
-                                    <!-- Some Information Abut the Project -->
-                                    <p class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet.
-                                    </p>
-                                    <button data-dismiss="modal" class="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./modal -->
-
-
-                <!-- 3rd Portfolio, Filter Option -->
-                <div class="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="1, 4">
-                    <div class="portfolio card">
-                        <figure class="hover-effect">
-                            <!-- Portfolio Imag e-->
-                            <img class="img-responsive" src="images/portfolios/p3.jpg" alt="">
-                            <!-- open-modal ID -->
-                            <a data-toggle="modal" data-target="#modal3" href="#0">
-                                <figcaption><span>View Details</span></figcaption>
-                            </a>
+                    <!--CATEGORY CONTENT THREE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>Two Hover Effect For Portfolio Grid Blocks. Its Up</p>
+                                <a href="images/portfolios/portfolio-2.jpg" class="popup-image"
+                                   data-effect="mfp-move-horizontal">View more</a>
+                            </figcaption>
                         </figure>
-                        <!-- Portfolio Title -->
-                        <h6 class="text-capitalize text-center">Portfolio Title Here</h6>
                     </div>
+
                 </div>
-                <!-- ./Portfolio -->
-                <!-- 3rd MODAL -->
-                <div id="modal3" class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content animated zoomIn">
-                            <h3 class="text-capitalize text-left">Project title will be placed here</h3>
-                            <div class="row">
-                                <!-- Modal Image -->
-                                <img class="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p3.jpg" alt="">
 
-                                <!-- Modal Content -->
-                                <div class="content col-md-4 col-sm-12 col-xs-12">
-                                    <!-- Date, Category & Client Name of the Project -->
-                                    <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                                    <p><span>Category:&nbsp;</span> System Development</p>
-                                    <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                                    <!-- Live Demo Link -->
-                                    <a href="#0" target="_blank" class="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
-                                    <!-- Some Information Abut the Project -->
-                                    <p class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet.
-                                    </p>
-                                    <button data-dismiss="modal" class="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
-                                </div>
+                <!--CATEGORY 2-->
+                <div id="b">
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./modal -->
-
-
-                <!-- 4th Portfolio, Filter Option -->
-                <div class="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="1, 5">
-                    <div class="portfolio card">
-                        <figure class="hover-effect">
-                            <!-- Portfolio Image -->
-                            <img class="img-responsive" src="images/portfolios/p4.jpg" alt="">
-                            <!-- open-modal ID -->
-                            <a data-toggle="modal" data-target="#modal4" href="#0">
-                                <figcaption><span>View Details</span></figcaption>
-                            </a>
+                    <!--CATEGORY CONTENT ONE BIG-->
+                    <div class="col-md-4 col-sm-12 col-xs-12 grid big inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/big-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>Effect also available for Lightbox Image Check The Doc</p>
+                                <a href="images/portfolios/big-2.jpg" class="popup-image"
+                                   data-effect="mfp-move-from-top">View more</a>
+                            </figcaption>
                         </figure>
-                        <!-- Portfolio Title -->
-                        <h6 class="text-capitalize text-center">Portfolio Title Here</h6>
                     </div>
-                </div>
-                <!-- ./Portfolio -->
-                <!-- 4th MODAL -->
-                <div id="modal4" class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content animated zoomIn">
-                            <h3 class="text-capitalize text-left">Project title will be placed here</h3>
-                            <div class="row">
-                                <!-- Modal Image -->
-                                <img class="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p4.jpg" alt="">
 
-                                <!-- Modal Content -->
-                                <div class="content col-md-4 col-sm-12 col-xs-12">
-                                    <!-- Date, Category & Client Name of the Project -->
-                                    <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                                    <p><span>Category:&nbsp;</span> System Development</p>
-                                    <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                                    <!-- Live Demo Link -->
-                                    <a href="#0" target="_blank" class="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
-                                    <!-- Some Information Abut the Project -->
-                                    <p class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet.
-                                    </p>
-                                    <button data-dismiss="modal" class="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./modal -->
-
-
-                <!-- 5th Portfolio, Filter Option -->
-                <div class="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="2, 3, 4">
-                    <div class="portfolio card">
-                        <figure class="hover-effect">
-                            <!-- Portfolio Image -->
-                            <img class="img-responsive" src="images/portfolios/p5.jpg" alt="">
-                            <!-- open-modal ID -->
-                            <a data-toggle="modal" data-target="#modal5" href="#0">
-                                <figcaption><span>View Details</span></figcaption>
-                            </a>
+                    <!--CATEGORY CONTENT TWO SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-scale">
+                            <img src="images/portfolios/portfolio-3.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>Used latest material design to make this sample</p>
+                                <a href="images/portfolios/portfolio-3.jpg" class="popup-image"
+                                   data-effect="mfp-3d-unfold">View more</a>
+                            </figcaption>
                         </figure>
-                        <!-- Portfolio Title -->
-                        <h6 class="text-capitalize text-center">Portfolio Title Here</h6>
                     </div>
-                </div>
-                <!-- ./Portfolio -->
-                <!-- 5th MODAL -->
-                <div id="modal5" class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content animated zoomIn">
-                            <h3 class="text-capitalize text-left">Project title will be placed here</h3>
-                            <div class="row">
-                                <!-- Modal Image -->
-                                <img class="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p5.jpg" alt="">
-
-                                <!-- Modal Content -->
-                                <div class="content col-md-4 col-sm-12 col-xs-12">
-                                    <!-- Date, Category & Client Name of the Project -->
-                                    <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                                    <p><span>Category:&nbsp;</span> System Development</p>
-                                    <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                                    <!-- Live Demo Link -->
-                                    <a href="#0" target="_blank" class="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
-                                    <!-- Some Information Abut the Project -->
-                                    <p class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet.
-                                    </p>
-                                    <button data-dismiss="modal" class="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./modal -->
 
 
-                <!-- 6th Portfolio, Filter Option -->
-                <div class="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="2">
-                    <div class="portfolio card">
-                        <figure class="hover-effect">
-                            <!-- Portfolio Image -->
-                            <img class="img-responsive" src="images/portfolios/p6.jpg" alt="">
-                            <!-- open-modal ID -->
-                            <a data-toggle="modal" data-target="#modal6" href="#0">
-                                <figcaption><span>View Details</span></figcaption>
-                            </a>
+                    <!--CATEGORY CONTENT THREE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-4.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>I designed this for a client for his cafe.</p>
+                                <a href="images/portfolios/portfolio-4.jpg" class="popup-image"
+                                   data-effect="mfp-with-fade">View more</a>
+                            </figcaption>
                         </figure>
-                        <!-- Portfolio Title -->
-                        <h6 class="text-capitalize text-center">Portfolio Title Here</h6>
                     </div>
+
                 </div>
-                <!-- ./Portfolio -->
-                <!-- 6th MODAL -->
-                <div id="modal6" class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content animated zoomIn">
-                            <h3 class="text-capitalize text-left">Project title will be placed here</h3>
-                            <div class="row">
-                                <!-- Modal Image -->
-                                <img class="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p6.jpg" alt="">
 
-                                <!-- Modal Content -->
-                                <div class="content col-md-4 col-sm-12 col-xs-12">
-                                    <!-- Date, Category & Client Name of the Project -->
-                                    <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                                    <p><span>Category:&nbsp;</span> System Development</p>
-                                    <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                                    <!-- Live Demo Link -->
-                                    <a href="#0" target="_blank" class="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
-                                    <!-- Some Information Abut the Project -->
-                                    <p class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet.
-                                    </p>
-                                    <button data-dismiss="modal" class="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./modal -->
-
-
-                <!-- 7th Portfolio, Filter Option -->
-                <div class="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="5">
-                    <div class="portfolio card">
-                        <figure class="hover-effect">
-                            <!-- Portfolio Image -->
-                            <img class="img-responsive" src="images/portfolios/p7.jpg" alt="">
-                            <!-- open-modal ID -->
-                            <a data-toggle="modal" data-target="#modal7" href="#0">
-                                <figcaption><span>View Details</span></figcaption>
-                            </a>
+                <!--CATEGORY 3-->
+                <div id="c">
+                    <!--CATEGORY CONTENT ONE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Showcase Your Portfolio in Details on a Single Page</p>
+                                <a href="single-portfolio.html">View more</a>
+                            </figcaption>
                         </figure>
-                        <!-- Portfolio Title -->
-                        <h6 class="text-capitalize text-center">Portfolio Title Here</h6>
                     </div>
-                </div>
-                <!-- ./Portfolio -->
-                <!-- 7th MODAL -->
-                <div id="modal7" class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content animated zoomIn">
-                            <h3 class="text-capitalize text-left">Project title will be placed here</h3>
-                            <div class="row">
-                                <!-- Modal Image -->
-                                <img class="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p7.jpg" alt="">
-
-                                <!-- Modal Content -->
-                                <div class="content col-md-4 col-sm-12 col-xs-12">
-                                    <!-- Date, Category & Client Name of the Project -->
-                                    <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                                    <p><span>Category:&nbsp;</span> System Development</p>
-                                    <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                                    <!-- Live Demo Link -->
-                                    <a href="#0" target="_blank" class="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
-                                    <!-- Some Information Abut the Project -->
-                                    <p class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet.
-                                    </p>
-                                    <button data-dismiss="modal" class="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./modal -->
-
-
-                <!-- 8th Portfolio, Filter Option -->
-                <div class="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="2, 3">
-                    <div class="portfolio card">
-                        <figure class="hover-effect">
-                            <!-- Portfolio Image -->
-                            <img class="img-responsive" src="images/portfolios/p8.jpg" alt="">
-                            <!-- open-modal ID -->
-                            <a data-toggle="modal" data-target="#modal8" href="#0">
-                                <figcaption><span>View Details</span></figcaption>
-                            </a>
+                    <!--CATEGORY CONTENT TWO SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/big-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Showcase Your Portfolio in Details on a Single Page</p>
+                                <a href="single-portfolio.html">View more</a>
+                            </figcaption>
                         </figure>
-                        <!-- Portfolio Title -->
-                        <h6 class="text-capitalize text-center">Portfolio Title Here</h6>
+                    </div>
+                    <!--CATEGORY CONTENT THREE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Showcase Your Portfolio in Details on a Single Page</p>
+                                <a href="single-portfolio.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!--CATEGORY CONTENT FOUR SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Showcase Your Portfolio in Details on a Single Page</p>
+                                <a href="single-portfolio.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT FIVE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-3.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Showcase Your Portfolio in Details on a Single Page</p>
+                                <a href="single-portfolio.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT SIX SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-4.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Showcase Your Portfolio in Details on a Single Page</p>
+                                <a href="single-portfolio.html">View more</a>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
-                <!-- ./Portfolio -->
-                <!-- 8th MODAL -->
-                <div id="modal8" class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content animated zoomIn">
-                            <h3 class="text-capitalize text-left">Project title will be placed here</h3>
-                            <div class="row">
-                                <!-- Modal Image -->
-                                <img class="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p8.jpg" alt="">
-
-                                <!-- Modal Content -->
-                                <div class="content col-md-4 col-sm-12 col-xs-12">
-                                    <!-- Date, Category & Client Name of the Project -->
-                                    <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                                    <p><span>Category:&nbsp;</span> System Development</p>
-                                    <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                                    <!-- Live Demo Link -->
-                                    <a href="#0" target="_blank" class="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
-                                    <!-- Some Information Abut the Project -->
-                                    <p class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Morbi venenatis et tortor ac tincidunt.
-                                        In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum
-                                        venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum dolor sit amet.
-                                    </p>
-                                    <button data-dismiss="modal" class="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <!--PORTFOLIOS ADD GALLERY BUTTON-->
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <button id="add-more" class="center-block btn-large waves-effect"><i id="port-add-icon"
+                                                                                         class="fa fa-plus"></i>
+                    </button>
                 </div>
-                <!-- ./modal -->
-
             </div>
         </div>
     </div>
 </section>
+
 
 
 <!--==========================================
