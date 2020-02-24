@@ -1,3 +1,3 @@
 # Old About Site of Andi B.
 
-New: https://andib.org
+https://andibde.github.io/about
